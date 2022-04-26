@@ -1,6 +1,8 @@
-A simple bot that automatically plays 2048 on a phone or tablet by using a CNC machine and some software to stream the devices screen to a PC (such as Microsoft Teams or TeamViewer). It then does some very basic image processing to detect the boards current state, compute the best move and then send the command to the CNC. 
+Video on YouTube: https://www.youtube.com/watch?v=IhyNcFJs6Cw
 
-For the AI, it uses the really good 2048 AI developed by nneonneo: https://github.com/nneonneo/2048-ai
+A simple bot that automatically plays 2048 on a phone or tablet by using a CNC machine and some software to stream the devices screen to a PC (such as Microsoft Teams or TeamViewer). It does some very basic image processing to detect the boards current state, compute the best move and then send the command to the CNC. 
+
+For the AI, it uses the 2048 AI developed by nneonneo: https://github.com/nneonneo/2048-ai
 
 To control the CNC machine, it uses Repetier-Server to send gcode-commands to the machine: https://www.repetier-server.com/ 
 
